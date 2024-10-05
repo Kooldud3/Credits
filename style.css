@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #001f3f; /* Dark background */
-    color: #fff; /* White text for contrast */
+    color: #fff; /* White text */
     padding: 20px;
 }
 
@@ -20,7 +20,6 @@ body {
     margin: auto;
     background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
@@ -40,20 +39,10 @@ section {
     margin-bottom: 20px;
 }
 
-/* Card styling */
-.card {
-    background: rgba(255, 255, 255, 0.2); /* Slightly transparent card */
-    border-radius: 10px;
-    padding: 15px;
-}
-
-/* Section Titles */
 section h2 {
     font-size: 1.5em;
     color: #00bfff;
     margin-bottom: 10px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
 }
 
 /* Credits List Styling */
@@ -63,18 +52,15 @@ section h2 {
 
 .credits ul li {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3); /* Light transparent background */
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 /* Author and Information Text */
 .authors p,
 .info p {
-    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
     padding: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
 }
