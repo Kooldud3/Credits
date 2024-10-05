@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #001f3f; /* Dark background */
-    color: #fff; /* White text */
+    background-color: #001d3f; /* Deep blue background */
+    color: #ffffff; /* White text */
     padding: 20px;
 }
 
@@ -18,9 +18,10 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    background: #005f73; /* Teal background */
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Header Styling */
@@ -31,7 +32,7 @@ body {
 
 .header h1 {
     font-size: 2em;
-    color: #00bfff; /* Light blue color */
+    color: #ffdd00; /* Bright yellow color */
 }
 
 /* Section Styling */
@@ -41,7 +42,7 @@ section {
 
 section h2 {
     font-size: 1.5em;
-    color: #00bfff;
+    color: #ffdd00; /* Bright yellow */
     margin-bottom: 10px;
 }
 
@@ -52,7 +53,7 @@ section h2 {
 
 .credits ul li {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #94d2bd; /* Light teal */
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -62,5 +63,5 @@ section h2 {
 .info p {
     padding: 15px;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    background: #e9d8a6; /* Light beige background */
 }
