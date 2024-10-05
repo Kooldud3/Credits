@@ -1,39 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
-    <title>Credits</title>
-</head>
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
 
-<body>
-    <div class="container">
-        <header class="header">
-            <h1>Credits and Information</h1>
-        </header>
+/* Container for the Page Content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
 
-        <section class="credits">
-            <h2>Credits</h2>
-            <ul>
-                <li><strong>Hansrudh Gupta:</strong> Developed the NEOS API code using JS, HTML, and CSS, utilizing data for orbital trajectory from the NASA JPL website.</li>
-                <li><strong>Stanislava Atamanova:</strong> Designed UI elements, including logos and icons, and coded the interface using HTML, JS, and CSS.</li>
-                <li><strong>Xhensila Celaj:</strong> Assisted in website creation, API code development, and the overall presentation of the site.</li>
-                <li><strong>Piotr Francik:</strong> Created visuals, modeled planets, and generated orbits using JS and Blender, integrating everything into WebGL.</li>
-            </ul>
-        </section>
+/* Header Styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        <section class="authors">
-            <h2>Authors</h2>
-            <p>This project was created by a team of passionate individuals from astronomy, computer science, and engineering backgrounds.</p>
-        </section>
+.header h1 {
+    font-size: 2em;
+    color: #0056b3;
+}
 
-        <section class="info">
-            <h2>Project Information</h2>
-            <p>This website serves as an interactive and informative guide to celestial events, integrating real-time data to enhance user experience.</p>
-        </section>
-    </div>
-</body>
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
 
-</html>
+section h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Credits List Styling */
+.credits ul {
+    list-style: none;
+}
+
+.credits ul li {
+    padding: 10px;
+    background-color: #e8f4fc;
+    border: 1px solid #cfe2f3;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Author and Information Text */
+.authors p,
+.info p {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1.6;
+}
