@@ -1,85 +1,72 @@
-/* General Styles */
-body {
-    font-family: 'Poppins', sans-serif;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #0D1B2A; /* Dark background */
-    color: #E0E1DD; /* Light text */
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #FF6F61; /* Header background with orange color */
-    padding: 4em 0;
-    text-align: center;
-    color: white;
-}
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
-}
-
-header p {
-    font-size: 1.3em;
-    font-weight: 400;
-}
-
-main {
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.section {
-    margin-bottom: 3em;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    color: #FF6F61; /* Highlight color */
-}
-
-.section p {
-    font-size: 1.1em;
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #000; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 20px;
 }
 
-.credits-list {
-    list-style: none;
-    padding: 0;
-    font-size: 1.2em;
-    line-height: 1.8;
+/* Container for the Page Content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #1a1a1a; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
-.credits-list li {
-    background-color: #1B263B; /* Card background color */
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    background-color: #FF6F61; /* Footer background with orange color */
+/* Header Styling */
+.header {
     text-align: center;
-    padding: 2em 0;
-    color: white;
+    margin-bottom: 20px;
 }
 
-footer a {
-    color: #E0E1DD; /* Light link color */
-    text-decoration: none;
+.header h1 {
+    font-size: 2.5em;
+    color: #ffcc00; /* Gold color for the title */
 }
 
-footer a:hover {
-    text-decoration: underline;
+/* Section Styling */
+section {
+    margin-bottom: 20px;
 }
 
-/* Add media queries to make the site mobile-friendly */
-@media (max-width: 768px) {
-    .credits-list li {
-        font-size: 1em; /* Adjust font size for mobile */
-    }
+section h2 {
+    font-size: 1.8em;
+    color: #ffcc00; /* Gold color for headings */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Credits List Styling */
+.credits ul {
+    list-style: none;
+}
+
+.credits ul li {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for credits */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Author and Information Text */
+.authors p,
+.info p {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    line-height: 1.6;
 }
