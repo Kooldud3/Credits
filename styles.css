@@ -7,10 +7,10 @@
 
 /* General Body Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #000; /* Dark background */
-    color: #fff; /* Light text */
+    background-color: #f0f0f0;
+    color: #333;
     padding: 20px;
 }
 
@@ -18,10 +18,10 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: #1a1a1a; /* Dark gray background */
+    background: #ffffff;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 /* Header Styling */
@@ -31,8 +31,8 @@ body {
 }
 
 .header h1 {
-    font-size: 2.5em;
-    color: #ffcc00; /* Gold color for the title */
+    font-size: 2em;
+    color: #0056b3;
 }
 
 /* Section Styling */
@@ -41,8 +41,8 @@ section {
 }
 
 section h2 {
-    font-size: 1.8em;
-    color: #ffcc00; /* Gold color for headings */
+    font-size: 1.5em;
+    color: #0056b3;
     margin-bottom: 10px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
@@ -55,8 +55,8 @@ section h2 {
 
 .credits ul li {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for credits */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    background-color: #e8f4fc;
+    border: 1px solid #cfe2f3;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -64,9 +64,9 @@ section h2 {
 /* Author and Information Text */
 .authors p,
 .info p {
-    background: rgba(255, 255, 255, 0.1);
+    background: #f9f9f9;
     padding: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #ddd;
     border-radius: 5px;
     line-height: 1.6;
 }
