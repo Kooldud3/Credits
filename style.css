@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B2A; /* Dark background */
+    color: #E0E1DD; /* Light text */
+}
+
+header {
+    background-color: #FF6F61; /* Header background with orange color */
+    padding: 4em 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #FF6F61; /* Highlight color */
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.credits-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.credits-list li {
+    background-color: #1B263B; /* Card background color */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #FF6F61; /* Footer background with orange color */
+    text-align: center;
+    padding: 2em 0;
+    color: white;
+}
+
+footer a {
+    color: #E0E1DD; /* Light link color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add media queries to make the site mobile-friendly */
+@media (max-width: 768px) {
+    .credits-list li {
+        font-size: 1em; /* Adjust font size for mobile */
+    }
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B2A; /* Dark background */
+    color: #E0E1DD; /* Light text */
+}
+
+header {
+    background-color: #FF6F61; /* Header background with orange color */
+    padding: 4em 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #FF6F61; /* Highlight color */
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.credits-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.credits-list li {
+    background-color: #1B263B; /* Card background color */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #FF6F61; /* Footer background with orange color */
+    text-align: center;
+    padding: 2em 0;
+    color: white;
+}
+
+footer a {
+    color: #E0E1DD; /* Light link color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add media queries to make the site mobile-friendly */
+@media (max-width: 768px) {
+    .credits-list li {
+        font-size: 1em; /* Adjust font size for mobile */
+    }
+}
