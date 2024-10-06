@@ -65,3 +65,15 @@ section h2 {
     border-radius: 5px;
     background: #e9d8a6; /* Light beige background */
 }
+
+/* Support Section Styling */
+.support a {
+    color: #ffdd00; /* Bright yellow for visibility */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+}
+
+.support a:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
